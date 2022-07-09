@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FriendsView: View {
     
+    @State var isSheetPresented = false
     
     @StateObject var friendManager = FriendManager()
     
@@ -24,6 +25,12 @@ struct FriendsView: View {
                         }
                     }
                 }
+                .onDelete { indexSet in
+                    friendManager.friends.remove(atOffsets: indexSet)
+                }
+                .onMove { indices, newOffset in
+                    friendManager.friends.move(fromOffsets: indices, toOffset: newOffset)
+                }
             }
             .navigationTitle("My Friends")
             .toolbar {
@@ -32,11 +39,14 @@ struct FriendsView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                       print("hello world")
+                        isSheetPresented = true
                     } label: {
                         Image(systemName: "plus")
                     }
                 }
+            }
+            .sheet(isPresented: $isSheetPresented) {
+                NewFriendView(friends: $friendManager.friends)
             }
         }
     }

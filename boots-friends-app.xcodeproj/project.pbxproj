@@ -15,6 +15,7 @@
 		CDB26D162879296D007F8FF4 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB26D152879296D007F8FF4 /* FriendsView.swift */; };
 		D9A6D59D28792DBA002211CD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6D59C28792DBA002211CD /* File.swift */; };
 		D9A6D59F28792E56002211CD /* FriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6D59E28792E56002211CD /* FriendDetailView.swift */; };
+		D9A6D5A128793537002211CD /* NewFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6D5A028793537002211CD /* NewFriendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CDB26D152879296D007F8FF4 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		D9A6D59C28792DBA002211CD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D9A6D59E28792E56002211CD /* FriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailView.swift; sourceTree = "<group>"; };
+		D9A6D5A028793537002211CD /* NewFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFriendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CDB26D0728792470007F8FF4 /* boots_friends_appApp.swift */,
 				CDB26D0928792470007F8FF4 /* ContentView.swift */,
 				CDB26D152879296D007F8FF4 /* FriendsView.swift */,
+				D9A6D5A028793537002211CD /* NewFriendView.swift */,
 				D9A6D59E28792E56002211CD /* FriendDetailView.swift */,
 				516BD5EF2879287A0060C1CF /* Friend.swift */,
 				D9A6D59C28792DBA002211CD /* File.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A6D59D28792DBA002211CD /* File.swift in Sources */,
+				D9A6D5A128793537002211CD /* NewFriendView.swift in Sources */,
 				516BD5F02879287A0060C1CF /* Friend.swift in Sources */,
 				CDB26D0A28792470007F8FF4 /* ContentView.swift in Sources */,
 				D9A6D59F28792E56002211CD /* FriendDetailView.swift in Sources */,
