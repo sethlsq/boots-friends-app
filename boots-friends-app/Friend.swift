@@ -9,11 +9,11 @@ import Foundation
 struct Friend: Identifiable, Codable {
     
     var id = UUID()
-    var Name: String
-    var Description: String
-    var Image: String
-    var AttackAbility: Double
-    var DefenceAbility: Double
+    var name: String
+    var description: String
+    var portrait: String
+    var attack: Double
+    var defense: Double
  
     
 }

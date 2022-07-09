@@ -8,10 +8,21 @@
 import SwiftUI
 
 struct FriendsView: View {
+    
+    
+    @StateObject var friendManager = FriendManager()
+    
     var body: some View {
         NavigationView {
             List {
-                HStack {
+                ForEach($friendManager.friends) { $friend in
+                    NavigationLink {
+                        FriendDetailView(friend: $friend)
+                    } label: {
+                        HStack {
+                            Text(friend.name)
+                        }
+                    }
                 }
             }
             .navigationTitle("My Friends")
