@@ -12,6 +12,7 @@
 		CDB26D0A28792470007F8FF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB26D0928792470007F8FF4 /* ContentView.swift */; };
 		CDB26D0C28792474007F8FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB26D0B28792474007F8FF4 /* Assets.xcassets */; };
 		CDB26D0F28792474007F8FF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB26D0E28792474007F8FF4 /* Preview Assets.xcassets */; };
+		CDB26D162879296D007F8FF4 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB26D152879296D007F8FF4 /* FriendsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CDB26D0928792470007F8FF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDB26D0B28792474007F8FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB26D0E28792474007F8FF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDB26D152879296D007F8FF4 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				CDB26D0728792470007F8FF4 /* boots_friends_appApp.swift */,
 				CDB26D0928792470007F8FF4 /* ContentView.swift */,
+				CDB26D152879296D007F8FF4 /* FriendsView.swift */,
 				516BD5EF2879287A0060C1CF /* Friend.swift */,
 				CDB26D0B28792474007F8FF4 /* Assets.xcassets */,
 				CDB26D0D28792474007F8FF4 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				516BD5F02879287A0060C1CF /* Friend.swift in Sources */,
 				CDB26D0A28792470007F8FF4 /* ContentView.swift in Sources */,
+				CDB26D162879296D007F8FF4 /* FriendsView.swift in Sources */,
 				CDB26D0828792470007F8FF4 /* boots_friends_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
