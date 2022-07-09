@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		516BD5F02879287A0060C1CF /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516BD5EF2879287A0060C1CF /* Friend.swift */; };
 		CDB26D0828792470007F8FF4 /* boots_friends_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB26D0728792470007F8FF4 /* boots_friends_appApp.swift */; };
 		CDB26D0A28792470007F8FF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB26D0928792470007F8FF4 /* ContentView.swift */; };
 		CDB26D0C28792474007F8FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB26D0B28792474007F8FF4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		516BD5EF2879287A0060C1CF /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		CDB26D0428792470007F8FF4 /* boots-friends-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "boots-friends-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB26D0728792470007F8FF4 /* boots_friends_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boots_friends_appApp.swift; sourceTree = "<group>"; };
 		CDB26D0928792470007F8FF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				CDB26D0728792470007F8FF4 /* boots_friends_appApp.swift */,
 				CDB26D0928792470007F8FF4 /* ContentView.swift */,
+				516BD5EF2879287A0060C1CF /* Friend.swift */,
 				CDB26D0B28792474007F8FF4 /* Assets.xcassets */,
 				CDB26D0D28792474007F8FF4 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516BD5F02879287A0060C1CF /* Friend.swift in Sources */,
 				CDB26D0A28792470007F8FF4 /* ContentView.swift in Sources */,
 				CDB26D0828792470007F8FF4 /* boots_friends_appApp.swift in Sources */,
 			);
